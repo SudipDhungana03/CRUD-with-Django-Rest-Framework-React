@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
-const BASE_URL = "http://127.0.0.1:8000/api/grocery";
+const BASE_URL = "https://crud-with-django-rest-framework-react.onrender.com/api/grocery";
 
 function App() {
   const [items, setItems] = useState([]);
